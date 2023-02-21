@@ -24,3 +24,17 @@ class test_data:
     {"id":2,"email":"alexis25@example.org","creation_date":"09-10-2021 02:31:37","last_activity_date":"01-11-2022 20:39:01","firstname":"Gregory","lastname":"Crane","address":"068 Shawn Port - West Jessica, KS 84864","city":"South Tonya","last_ip":"192.220.63.96","postcode":"88033"}
     {"email":"davidporter@example.com","creation_date":"05-28-2022 09:54:50","last_activity_date":"12-18-2021 21:48:48","firstname":"Jeremy","lastname":"Knight","address":"06183 Acevedo Bypass - Petermouth, ME 34177","city":"West Brianburgh","last_ip":"53.240.159.208","postcode":"73380"}
     {"id":"invalid ID","email":"margaret84@example.com","creation_date":"12-20-2021 19:57:28","last_activity_date":"07-27-2021 09:39:28","firstname":"Angela","lastname":"Adams","address":"098 Daniel Ferry Suite 565 - South Andrea, ND 36326","city":"New Mariafort","last_ip":"7.176.250.65","postcode":"21300"}"""
+
+  def get_data_description():
+    return """There are two datasets in this repository:
+1. spend_csv
+    column-names: id,age,annual_income,spending_core
+    3 \"standard\" spends
+    1 spend with null age
+    1 spend with null ID
+    1 spend with incompatible schema (ID as string)
+2. users_json
+    column-names: id,email,creation_date,lasat_activity_date,firstname,lastname,address,city,last_ip,postcode
+    4 \"standard\" users
+    1 user with Null ID
+    1 user with an ID as a string"""
