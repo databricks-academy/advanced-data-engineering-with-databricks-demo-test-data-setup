@@ -1,5 +1,3 @@
-from pyspark.dbutils import DBUtils
-
 class test_data:
   def __init__(self):
     # spend_csv contains: 
@@ -26,14 +24,3 @@ class test_data:
     {"id":2,"email":"alexis25@example.org","creation_date":"09-10-2021 02:31:37","last_activity_date":"01-11-2022 20:39:01","firstname":"Gregory","lastname":"Crane","address":"068 Shawn Port - West Jessica, KS 84864","city":"South Tonya","last_ip":"192.220.63.96","postcode":"88033"}
     {"email":"davidporter@example.com","creation_date":"05-28-2022 09:54:50","last_activity_date":"12-18-2021 21:48:48","firstname":"Jeremy","lastname":"Knight","address":"06183 Acevedo Bypass - Petermouth, ME 34177","city":"West Brianburgh","last_ip":"53.240.159.208","postcode":"73380"}
     {"id":"invalid ID","email":"margaret84@example.com","creation_date":"12-20-2021 19:57:28","last_activity_date":"07-27-2021 09:39:28","firstname":"Angela","lastname":"Adams","address":"098 Daniel Ferry Suite 565 - South Andrea, ND 36326","city":"New Mariafort","last_ip":"7.176.250.65","postcode":"21300"}"""
-
-  def put_spend_csv(self):
-    dbutils.fs.put('/Users/david.harris@databricks.com/test_data/spend_csv/spend.csv', self.spend_csv, True)
-  
-  def put_users_json(self):
-    dbutils.fs.put('/Users/david.harris@databricks.com/test_data/users_json/users.json', self.users_json, True)
-
-# MAGIC %fs head /Users/david.harris@databricks.com/test_data/users_json/users.json
-
-
-# MAGIC %fs head /Users/david.harris@databricks.com/test_data/spend_csv/spend.csv
