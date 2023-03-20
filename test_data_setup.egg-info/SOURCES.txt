@@ -1,8 +1,0 @@
-README.md
-setup.py
-data_setup/__init__.py
-data_setup/test_data_setup.py
-test_data_setup.egg-info/PKG-INFO
-test_data_setup.egg-info/SOURCES.txt
-test_data_setup.egg-info/dependency_links.txt
-test_data_setup.egg-info/top_level.txt
