@@ -4,5 +4,5 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "data_setup"
-version = "0.0.2"
+version = "0.0.5"
 readme = "README.md"
