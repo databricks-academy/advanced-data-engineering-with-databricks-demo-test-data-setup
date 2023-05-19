@@ -1,2 +1,2 @@
-# advanced-data-engineering-test-data-example
-This simple repo stores a notebook used to create a test dataset for ci/cd.
+# Advanced Data Engineering with Databricks - Test Data Setup Package
+This repo stores a simple Python package that provides test datasets for a demo in Module 5 of the Advanced Data Engineering with Databricks course.
